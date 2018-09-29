@@ -150,9 +150,8 @@ namespace Enjoy
                     };
                     ValueComposed?.Invoke(this, foot1Bot);
                     while(true){}
-                    //continue;
                
-                }
+                } 
                 
                 var btns = _state.GetButtons();
                 if(_isXBoxGamePad == false)
